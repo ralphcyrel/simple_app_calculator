@@ -22,7 +22,9 @@ while True:
         else:
             print("Division by zero is prohibited")
             continue
-
+    else:
+        print("Invalid operator")
+        continue 
 #This will display the result
 #Will ask the user if they want to try again
 #Exit the program if the user doesn't want to try again
