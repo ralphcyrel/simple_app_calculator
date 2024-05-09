@@ -16,7 +16,13 @@ while True:
     elif operator == '*':
         result = num1 * num2
     elif operator == '/':
-        result = num1 / num2
+    # This will check if the second number is not zero
+        if num2 != 0:
+            result = num1 / num2
+        else:
+            print("Division by zero is prohibited")
+            continue
+
 #This will display the result
 #Will ask the user if they want to try again
 #Exit the program if the user doesn't want to try again
