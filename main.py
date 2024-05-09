@@ -33,5 +33,5 @@ while True:
     if try_again == 'no':
         print("Thanks for using the program!")
         break
-    elif try_again == 'yes':
+    elif try_again != 'yes':
         break
