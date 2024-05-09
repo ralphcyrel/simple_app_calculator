@@ -28,4 +28,10 @@ while True:
 #This will display the result
     print(f"Result: {result}")
 #Will ask the user if they want to try again
+    try_again = input("Do you want to try again? (yes/no):")
 #Exit the program if the user doesn't want to try again
+    if try_again == 'no':
+        print("Thanks for using the program!")
+        break
+    elif try_again == 'yes':
+        break
